@@ -1,0 +1,292 @@
+body,
+html {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e9e8e8;
+  height: 100%;
+}
+
+a {
+  color: #e9e8e8;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #cacaca;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media (max-height: 650px) {
+  .hero {
+    height: 850px !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .logo {
+    width: 80px;
+  }
+
+  .navbar-brand {
+    padding-left: 20px;
+  }
+
+  .food {
+    width: 50vw;
+    min-width: 90%;
+    align-self: center;
+  }
+
+  .hero-call-to-action,
+  .hero-food {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .carousel-container {
+    top: -200px;
+  }
+
+  .menu-item > p {
+    visibility: hidden;
+    width: 80%;
+  }
+
+  .menu-item {
+    width: 90% !important;
+  }
+
+  .con-col {
+    padding-top: 30px;
+  }
+
+  iframe {
+    width: 100%;
+  }
+
+  .footer > p {
+    font-size: 15px;
+  }
+
+  .menu-item > h5 {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-nav > li {
+    padding-right: 100px;
+  }
+
+  .navbar-brand {
+    padding-left: 120px;
+  }
+
+  .logo {
+    width: 130px;
+  }
+
+  .food {
+    position: relative;
+    width: 50vw;
+  }
+
+  .hero-call-to-action {
+    left: -10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 4vw;
+    padding-left: 50px;
+  }
+
+  h2 {
+    font-size: 3vw;
+  }
+
+  h3 {
+    font-size: 2.5vw;
+  }
+
+  .carousel-container {
+    top: -400px;
+  }
+
+  .card-row {
+    top: -300px;
+  }
+}
+
+h1,
+h3 {
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: lighter;
+}
+
+h4,
+h5 {
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.navbar {
+  background-color: transparent !important;
+}
+
+.btn {
+  width: 300px;
+  background-color: #4cb197;
+  color: #f2f2f2;
+  font-weight: bold;
+  align-self: center;
+  -webkit-box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: #4cb197;
+}
+
+.hero-text {
+  align-self: center;
+}
+
+.hero {
+  height: 90%;
+  background-image: url(media/wave.svg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.pink-subsection {
+  background-color: #d91e41;
+  color: #e9e8e8;
+  height: 760px;
+  border-radius: 0 0 50px 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.pink-subsection-text {
+  margin-top: 140px;
+  width: 80%;
+}
+
+.carousel-item > img {
+  height: 630px;
+  object-fit: contain;
+}
+
+.carousel-container {
+  position: relative;
+  background-color: #e9e8e8;
+  border-radius: 15px;
+  -webkit-box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card-row {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.cards {
+  margin-bottom: 100px;
+}
+
+.card {
+  padding: 45px;
+  margin: 30px;
+  border-radius: 15px;
+  -webkit-box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.05);
+  box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.05);
+}
+
+.menu {
+  background-color: #313131;
+  color: #e9e8e8;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.menu-wrapper {
+  width: 90%;
+  height: 90%;
+  border: 10px solid #e9e8e8;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.menu-headline {
+  width: 80%;
+  align-self: center;
+  margin: 120px auto;
+}
+
+.menu-item {
+  width: 50%;
+  margin: 150px auto;
+}
+
+.item-name,
+.menu-item > p {
+  float: left;
+  text-align: left;
+  width: 70%;
+}
+
+.menu-item > p {
+  font-size: 15px;
+}
+
+.item-price {
+  float: right;
+}
+
+.contact {
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  background-color: #d91e41;
+  color: #e9e8e8;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.footer > p {
+  margin: 0;
+}
+
+.contact-row {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
